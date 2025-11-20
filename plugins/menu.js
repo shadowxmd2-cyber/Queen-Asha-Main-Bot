@@ -57,42 +57,45 @@ cmd(
         }
       }
 
-      let madeMenu = `👋 *Hello  ${pushname}*
+      let madeMenu = `🌸✨ 𝑸𝒖𝒆𝒆𝒏 𝑨𝒔𝒉𝒂 𝑴𝑫 — 𝑳𝒊𝒈𝒉𝒕 𝑴𝒆𝒏𝒖 ✨🌸
 
+👋 *Hello ${pushname}*
 
-| *MAIN COMMANDS* |
-    ▫️.alive
-    ▫️.menu
-    ▫️.ai <text>
-    ▫️.system
-    ▫️.owner
-| *DOWNLOAD COMMANDS* |
-    ▫️.song <text>
-    ▫️.video <text>
-    ▫️.fb <link>
-| *GROUP COMMANDS* |
-${menu.group}
-| *OWNER COMMANDS* |
-    ▫️.restart
-    ▫️.update
-| *CONVERT COMMANDS* |
-    ▫️.sticker <reply img>
-    ▫️.img <reply sticker>
-    ▫️.tr <lang><text>
-    ▫️.tts <text>
-| *SEARCH COMMANDS* |
-${menu.search}
+• *Main*  
+  .alive - Check bot status  
+  .menu - Show this menu  
+  .ai <text> - Chat with AI  
+  .system - System info  
+  .owner - Bot owner info
 
+• *Download*  
+  .song <text> - Download song  
+  .video <text> - Download video  
+  .fb <link> - Download Facebook video
 
-🥶𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋🥶
+• *Group*  
+  ${menu.group}
 
-> ROBIN MENU MSG
+• *Owner*  
+  .restart - Restart bot  
+  .update - Update bot
+
+• *Convert*  
+  .sticker <reply img> - Make sticker  
+  .img <reply sticker> - Sticker to image  
+  .tr <lang> <text> - Translate text  
+  .tts <text> - Text to speech
+
+• *Search*  
+  ${menu.search}
+
+🌼 *Made by Ishan & Kavindu* 🌼
 `;
       await robin.sendMessage(
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20menu.jpg",
+            url: "https://files.catbox.moe/oaex2l.jpg",
           },
           caption: madeMenu,
         },
